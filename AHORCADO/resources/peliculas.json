@@ -1,0 +1,73 @@
+{
+    "Peliculas":[
+        {
+            "Titulo":"Parque Jurasico",
+            "Descripcion":"En isla Nublar, ubicada cerca de Costa Rica, un empleado de InGen —Tecnologías Genéticas Internacionales, Inc., por sus siglas en inglés— es asesinado por un dinosaurio durante su traslado a Parque Jurásico, un parque de diversiones cuya principal atracción son dinosaurios clonados por genetistas...​",
+            "Actor":"Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough, Martin Ferrero, Cameron Thor",
+            "Director":"Steven Spielberg",
+            "Imagen":"https://i.blogs.es/b7822d/jurassic-park-poster/450_1000.jpg",
+            "Fecha":"1993",
+            "Tipo":"Pelicula"
+        },
+        {
+            "Titulo":"Star Wars IV una nueva esperanza",
+            "Descripcion":"La nave en la que viaja la princesa Leia es capturada por las tropas imperiales al mando del temible Darth Vader. Antes de ser atrapada, Leia consigue introducir un mensaje en su robot R2-D2, quien acompañado de su inseparable C-3PO logran escapar. Tras aterrizar en el planeta Tattooine son capturados y vendidos al joven Luke Skywalker, quien descubrirá el mensaje oculto que va destinado a Obi Wan Kenobi, maestro Jedi a quien Luke debe encontrar para salvar a la princesa.​",
+            "Actor":"Mark Hamil, Harrison Ford, Carrie Fisher, Alec Guinness, Peter Mayhew, David Prowse",
+            "Director":"George Lucas",
+            "Imagen":"https://m.media-amazon.com/images/I/71C+KwExtCL._SL1212_.jpg",
+            "Fecha":"1977",
+            "Tipo":"Pelicula"
+        },
+        {
+            "Titulo":"The Matrix",
+            "Descripcion":"El programador informático Thomas Anderson, más conocido en el mundo de los hacker como Neo, está en el punto de mira del temible agente Smith. Otros dos piratas informáticos, Trinity y Morfeo, se ponen en contacto con Neo para ayudarlo a escapar...​",
+            "Actor":"Keanu Reeves, Carrie-Anne Moss, Laurence Fishburne",
+            "Director":"Steven Spielberg",
+            "Imagen":"https://pics.filmaffinity.com/Matrix-430409153-large.jpg",
+            "Fecha":"2002",
+            "Tipo":"Pelicula"
+        },
+        {
+            "Titulo":"Piratas del Caribe",
+            "Descripcion":"El capitán Barbossa le roba el barco al pirata Jack Sparrow y secuestra a Elizabeth, amiga de Will Turner. Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes...​",
+            "Actor":"Johnny Depp, Keira Knightley, Orlando Bloom, Geoffrey Rush",
+            "Director":"Gore Verbinski",
+            "Imagen":"https://pics.filmaffinity.com/Piratas_del_Caribe_La_maldici_n_de_la_Perla_Negra-627724446-large.jpg",
+            "Fecha":"2003",
+            "Tipo":"Pelicula"
+        },
+        {
+            "Titulo":"Vengadores Endgame",
+            "Descripcion":"Después de los eventos devastadores de Avengers: Infinity War, el universo está en ruinas debido a las acciones de Thanos, el Titán Loco. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar detenerlo y restaurar el orden en el universo de una vez por todas...​",
+            "Actor":"Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner",
+            "Director":"Anthony y Joe Russo",
+            "Imagen":"https://www.lavanguardia.com/peliculas-series/images/movie/poster/2019/4/w1280/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+            "Fecha":"2019",
+            "Tipo":"Pelicula"
+        }    
+        ,
+        {
+            "Titulo":"Uncharted",
+            "Descripcion":"Nathan Drake y su compañero Victor Sullivan se adentran en la peligrosa búsqueda del mayor tesoro jamás encontrado. Al mismo tiempo, rastrean pistas que puedan conducir al hermano perdido de Drake.​",
+            "Actor":"Tom Holland, Sophia Ali, Mark Wahlberg, Tati Gabrielle",
+            "Director":"Ruben Fleischer",
+            "Imagen":"https://pics.filmaffinity.com/Uncharted-668430180-large.jpg",
+            "Fecha":"2022",
+            "Tipo":"Pelicula"
+        }   
+        ,
+        {
+            "Titulo":"Smile",
+            "Descripcion":"Tras presenciar el dramático incidente sufrido por un paciente, la Dra. Cotter experimenta hechos aterradores sin explicación aparente. A medida que el horror se adueña de su vida, comprende que la respuesta está en su propio pasado.​",
+            "Actor":"Sosie Bacon, Caitlin Stasey, Rob Morgan",
+            "Director":"Parker Finn",
+            "Imagen":"https://es.web.img3.acsta.net/pictures/22/08/29/13/14/4629726.jpg",
+            "Fecha":"2022",
+            "Tipo":"Pelicula"
+        }
+ 
+    ],
+    "Series":[
+
+    ]
+}

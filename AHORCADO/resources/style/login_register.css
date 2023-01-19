@@ -1,0 +1,71 @@
+body{
+    background: url("../images/fondo_login.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  }
+
+  .login{
+    margin-top: 25vh;
+  }
+  .register{
+    margin-top: 2vh;
+  }
+  .form-container{
+    
+    background: url("../images/fondo_card_login.jpg") no-repeat center center fixed;   
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #96501F;
+
+  }
+
+  .btn-login {
+    min-width: 300px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #96501F;
+    background: #96501F;
+  }
+  .btn-login:hover {
+    background: transparent;
+    color: #96501F
+  }
+
+
+  .btn-registro{
+    min-width: 300px;
+    height: 40px;
+    color: #96501F;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background: #fff;
+  }
+
+  .btn-registro:hover {
+    background: transparent;
+    color: #96501F
+  }
+
+  

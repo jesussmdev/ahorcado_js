@@ -1,0 +1,42 @@
+body{
+  background: url("../images/fondo_index.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.contenedor-index{
+  margin-top: 30vh;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+li{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+
+img{
+  width: 50%;
+}
+
+img:hover{
+  width: 60%;
+}
+
+
+
+

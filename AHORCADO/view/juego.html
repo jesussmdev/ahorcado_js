@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../resources/style/juego.css" rel="stylesheet" type="text/css">
+    <link href="../resources/style/botones.css" rel="stylesheet" type="text/css">
+    <link href="../resources/style/modal.css" rel="stylesheet" type="text/css">
+
+    <title>Ahorcado</title>
+</head>
+<body>
+  <nav>
+    
+    <ul>
+      <li><a href="home.html"><img src="../resources/images/avatar_user.png" alt=""></a></li>
+      <li id="nombreUser"></li>
+      <li><a href="home.html"><img src="../resources/images/door_home.png" alt=""></a></li>
+      <li><a href="profile.html"><img src="../resources/images/profile.png" alt=""></a></li>
+
+    </ul>
+    <img onclick="logout()" src="../resources/images/logout.png" alt="">
+  </nav>
+    <div class="principal" >
+        <img src="../resources/images/volume-mute.png" alt="altavoz" id="altavoz" onclick="controlMusicaFondo()">
+        <div class="imagenDiv">
+          <img src="../resources/images/horca.png" alt="muñeco" id="imagen" >
+        </div>
+        <div class="juegoDiv">
+          <h1 id="pista"></h1>
+          <h2 class="intentosH2">
+            <span id="intentos"></span>/<span id="intentosOriginales"></span>
+          </h2>
+          <h2 id="puntuacionH2"></h2>
+          <h2 id="resultado"><pre></pre></h2>
+          <div  id="contenedorTeclas" class="tecladoDiv">
+            
+          </div>
+        </div>
+      </div>
+      <div id="solapaDiv"></div>
+      <div id="contenedor-victoria" class="contenedor_modal">
+        <h1>Victoria</h1>
+        <h2 id="nombrePelicula"></h2>
+        <img id="imagenPelicula" src="" alt="">
+        <p id="descripcionPelicula"></p>
+        <p id="actoresPelicula"></p>
+        <p id="directorPelicula"></p>
+        <p id="fechaPelicula"></p>
+        <button class="botonEmergente" onclick="window.location.reload()">Jugar Otra</button>
+        <button class="botonEmergente" onclick="cerrarModalVictoria();">Cerrar</button>
+      </div>
+
+
+      <div id="contenedor-derrota" class="contenedor_modal">
+        <h1>Derrota</h1>
+        <h2 id="derrotaTitulo"></h2>
+        <p>No te quedan vidas, pulsa volver a jugar para jugar otra partida</p>
+        <button class="botonEmergente" onclick="window.location.reload()">Volver a jugar</button>
+        <button class="botonEmergente" onclick="cerrarModalDerrota();">Cerrar</button>
+      </div>
+    
+      <script type="text/javascript" src="../model/entity/Partida.js"></script>
+    <script type="text/javascript" src="../controller/seguridad.js"></script>
+    <script type="text/javascript" src="../controller/logout.js"></script>
+    <script type="text/javascript" src="../model/entity/Pelicula.js"></script>
+    <script type="text/javascript" src="../model/daos/peliculaDAO.js"></script>
+    <script type="text/javascript" src="../controller/juego.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resources/style/profile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <nav>
+    
+    <ul>
+      <li><a href="home.html"><img src="../resources/images/avatar_user.png" alt=""></a></li>
+      <li id="nombreUser"></li>
+      <li><a href="home.html"><img src="../resources/images/door_home.png" alt=""></a></li>
+      <li><a href="profile.html"><img src="../resources/images/profile.png" alt=""></a></li>
+
+    </ul>
+    <img onclick="logout()" src="../resources/images/logout.png" alt="">
+  </nav>
+
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-4">
+        <img style="height: 600px; margin-top: 20vh;" src="../resources/images/vaquero.png" alt="">
+      </div>
+
+      <div class="col-8">
+        <div style="margin-top: 10vh;" class="card tarjeta_container">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-6">
+                <h3>DATOS USUARIO</h3>
+                <br>
+                <p id="usuarioUser" class="card-title">Usuario: </p>
+                <p id="nombre_user" class="card-text">Nombre: </p>
+                <p id="apellido1User" class="card-text">Primer apellido: </p>
+                <p id="apellido2User" class="card-text">Segundo apellido: </p>
+                <p id="emailUser" class="card-text">Email: </p>
+                <br>
+              </div>
+              <div class="col-6">
+                <h3>ESTADISTICAS GENERALES</h3>
+                <br>
+                <p id="puntosTotalesUser" class="card-text">Puntos totales: </p>
+                <p id="partidasTotalesUser" class="card-text">Partidas totales: </p>
+                <p id="IntentosTotalesUser" class="card-text">Intentos totales: </p>
+                <p id="AciertosTotalesUser" class="card-text">Aciertos totales: </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <button class="btn-ver_partidas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Ver mis partidas</button>
+              </div>
+              <div class="col-6">
+                <button onclick="window.location='ranking.html'" class="btn-ver_clasificacion">Ver clasificación</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>        
+      </div>
+    </div>
+  </div>
+
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Resultado Partidas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div id="canvasbody" class="offcanvas-body">
+      
+      
+      
+      
+    </div>
+  </div>
+
+
+
+
+  <script src="../model/entity/Partida.js"></script>
+  <script src="../controller/logout.js"></script>
+  <script src="../controller/analiticas.js"></script>
+  <script src="../controller/seguridad.js"></script>
+  <script src="../controller/perfil.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
